@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "JSON API response normalizer",
   "main": "dist/bundle.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "clean": "cross-env rimraf dist coverage lib",
